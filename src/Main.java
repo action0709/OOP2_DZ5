@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         try {
             check("action","12345","12345");
-            System.out.println("Проверка прошла успешно");
+            System.out.println(" Проверка прошла успешно");
         } catch (WrongLoginException|WrongPasswordException e) {
             System.out.println(e.getMessage());
         }
